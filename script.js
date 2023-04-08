@@ -1,20 +1,7 @@
 // 이름 데이터
 const maleNames = ['Ethan', 'Alex', 'Adrian', 'Aaron', 'Adam', 'Alan', 'Albert', 'Andrew', 'Anson', 'Anthony', 'Arjun', 'Austin', 'Benjamin', 'Brandon', 'Brian', 'Calvin', 'Carl', 'Charles', 'Chris', 'Christian', 'Clarence', 'Cody', 'Colin', 'Connor', 'Curtis', 'Cyrus', 'Daniel', 'Darren', 'David', 'Dean', 'Derek', 'Dominic', 'Don', 'Douglas', 'Dylan', 'Edgar', 'Edison', 'Edmund', 'Edward', 'Edwin', 'Eli', 'Elijah', 'Elliott', 'Emery', 'Eric', 'Eugene', 'Evan', 'Felix', 'Floyd', 'Francis', 'Frank', 'Gabriel', 'Garrett', 'Gary', 'Gavin', 'George', 'Gilbert', 'Glenn', 'Gordon', 'Graham', 'Grant', 'Greg', 'Harry', 'Harvey', 'Henry', 'Howard', 'Hugh', 'Hugo', 'Hunter', 'Ian', 'Isaac', 'Ivan', 'Jack', 'Jackson', 'Jacob', 'Jake', 'James', 'Jason', 'Jayden', 'Jeffrey', 'Jerome', 'Jerry', 'Jesse', 'Jim', 'Jimmy', 'Joe', 'Joel', 'John', 'Johnny', 'Johnson', 'Jonathan', 'Jordan', 'Joseph', 'Joshua', 'Julian', 'Justin', 'Keith', 'Ken', 'Kevin', 'Kirk', 'Kyle', 'Lance', 'Larry', 'Lawrence', 'Lee', 'Leo', 'Leonard', 'Leroy', 'Lewis', 'Liam', 'Lincoln'];
-const femaleNames = ['Aiko', 'Aimi', 'Aina', 'Airi', 'Akane', 'Akiko', 'Akina', 'Akiyo', 'Amaya', 'Ami',
-'Anzu', 'Aria', 'Arisa', 'Asami', 'Asuka', 'Ayaka', 'Ayame', 'Ayane', 'Ayano', 'Ayumi',
-'Chika', 'Chiyo', 'Eiko', 'Emi', 'Eri', 'Erika', 'Erina', 'Fuka', 'Fumiko', 'Haru',
-'Haruka', 'Haruko', 'Haruna', 'Haruyo', 'Hikari', 'Hina', 'Hinata', 'Hiroko', 'Hitomi', 'Honoka',
-'Ikumi', 'Itsuki', 'Izumi', 'Kana', 'Kanako', 'Kaori', 'Karen', 'Kasumi', 'Kaya', 'Kayo',
-'Kazumi', 'Kiko', 'Kimi', 'Kira', 'Kiyomi', 'Kokoro', 'Koto', 'Kumi', 'Kurumi', 'Kyoko',
-'Mai', 'Maiko', 'Maki', 'Makiko', 'Mana', 'Manami', 'Mariko', 'Makiyo', 'Maya', 'Mayumi',
-'Megumi', 'Mei', 'Michi', 'Mieko', 'Miharu', 'Mika', 'Miki', 'Miku', 'Minako', 'Minami',
-'Mio', 'Misaki', 'Miyabi', 'Miyu', 'Moe', 'Momoka', 'Momo', 'Nana', 'Nanako', 'Nao',
-'Naoko', 'Natsumi', 'Natsuki', 'Natsuko', 'Nene', 'Nobuko', 'Nozomi', 'Ran', 'Rei', 'Reika',
-'Reina', 'Rie', 'Rika', 'Riko', 'Rina', 'Rinako', 'Rio', 'Risa', 'Rina', 'Ruri',
-'Ryoko', 'Sachi', 'Sachiko', 'Sae', 'Saeko', 'Sakura', 'Sana', 'Sara', 'Sayaka', 'Sayuri',
-'Shinobu', 'Shiori', 'Shizuka', 'Sumiko', 'Takako', 'Takara', 'Tamaki', 'Tomoko', 'Tsukiko', 'Yasuko',
-'Yoko', 'Yoshiko', 'Yua', 'Yui', 'Yuka', 'Yuki', 'Yukiko', 'Yumeko', 'Yumi', 'Yuna'
-];
+const femaleNames = ["Abigail", "Alice", "Amanda", "Amber", "Amy", "Angel", "Angela", "Anna", "Aria", "Ariana", "Ariel", "Ashley", "Aubrey", "Audrey", "Avery", "Bailey", "Bella", "Bethany", "Brooke", "Caitlin", "Cameron", "Camila", "Caroline", "Charlotte", "Chloe", "Christina", "Claire", "Daisy", "Danielle", "Delilah", "Destiny", "Diana", "Eden", "Eleanor", "Elena", "Elizabeth", "Ella", "Ellie", "Emily", "Emma", "Emmalyn", "Erin", "Evelyn", "Faith", "Gabrielle", "Genesis", "Gianna", "Grace", "Gracie", "Hailey", "Haley", "Hannah", "Harmony", "Hayden", "Hayley", "Hazel", "Isabella", "Isabelle", "Isabel", "Ivy", "Jade", "Jasmine", "Jenna", "Jennifer", "Jessica", "Jordan", "Jordyn", "Journey", "Julia", "Juliana", "Juliette", "Kaitlyn", "Kaitlin", "Kaitlynn", "Katelyn", "Katherine", "Katie", "Kayla", "Keira", "Kelly", "Kendall", "Kennedy", "Khloe", "Kimberly", "Kinley", "Kinsley", "Kira", "Kylie", "Laila", "Layla", "Leah", "Lila", "Liliana", "Lillian", "Lilliana", "Lilly", "Lily", "Londyn", "Lucy", "Lydia", "Mackenzie", "Madeline", "Madelyn", "Madison", "Makayla", "Makenzie", "Maria", "Mariah", "Megan", "Melanie", "Mia", "Mikayla", "Miranda", "Molly", "Morgan", "Mya", "Natalia", "Natalie", "Nevaeh", "Nora", "Olivia", "Paige", "Paisley", "Penelope", "Peyton", "Phoebe", "Piper", "Presley", "Raven", "Reagan", "Reese", "Riley", "Rose", "Ruby", "Rylee", "Sabrina", "Sadie", "Samantha", "Sara", "Sarah", "Savannah", "Scarlett", "Serena", "Shelby", "Sienna", "Sierra", "Skylar", "Sophia", "Sophie", "Stella", "Summer", "Sydney", "Talia", "Tessa", "Valentina", "Valerie", "Victoria", "Violet", "Willow", "Zoe", "Zoey"];
+
 
 // 이름 3개를 랜덤하게 선택하는 함수
 function getRandomNames() {
